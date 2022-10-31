@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+body{
+    background:black; 
+    color:white;
+    font-size:20px;
+    font-weight:normal;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+.avatar{
+    width:300px;
+    height:300px;
+    border-radius:10px;
+}
+.gside{
+    font-style:italic;
+}
+#line{
+    text-decoration:line-through;
+}
+.container{
+    max-width:750px;
+    margin:auto;
+}
+.sitehead{
+    padding:15px;
+    display:flex;
+}
+.social{
+    padding:15px;
+}
+.hobbi{
+    padding:15px;
+}
+.tabl{
+    padding:15px;
+}
+.connect{
+    padding:15px;
+}
+h1{
+    font-size:60px;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:blue;
+}
+a:visited{
+    color:gray;
+}
+ul li{
+    margin-bottom: 10px;
+}
+ol li{
+    margin-bottom: 5px;
+}
+.games{
+    padding:15px;
+}
+.soc{
+    padding:15px;
+}
+.gms{
+    padding:15px;
+}
+.hbb{
+    padding:15px;
+}
+.congroup input,
+.congroup textarea {
+    border:none;
+    width:200px;
+    outline:none;
+    font-family: inherit;
+    color:black;
+}
+.btn{
+    border:none;
+    padding:15px;
+    background:gray;
+    border:none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity:0.7;
+}
+@media(max-width:750px){
+    .sitehead{
+        display:block;
+    }
+}
